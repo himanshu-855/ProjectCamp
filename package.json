@@ -1,0 +1,20 @@
+{
+  "name": "projectcamp",
+  "version": "1.0.0",
+  "description": "Backend Base Project",
+  "keywords": [
+    "Backend",
+    "API",
+    "databases"
+  ],
+  "license": "ISC",
+  "author": "Himanshu Chaudhari",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.8.0"
+  }
+}
