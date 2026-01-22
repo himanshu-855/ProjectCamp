@@ -1,10 +1,14 @@
 import dotenv from 'dotenv';
-
+import app from './app.js';
 dotenv.config({
     path: "./.env",
 })
 
-let Username = process.env.username
-console.log("Value: ",Username);
 
-console.log("Hello, World!");
+const port = process.env.PORT || 3000
+
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+}) 
+
